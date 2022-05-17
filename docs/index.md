@@ -19,7 +19,7 @@ This website was build with:
 
 Head over the [getting started](getting_started) guide
 
-## Features
+## Cool stuff
 
 ### Code Highlights
 

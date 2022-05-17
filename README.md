@@ -3,6 +3,8 @@ mkdocs + material + cool stuff
 
 Doc is live [here](https://francescosaveriozuppichini.github.io/Modern-Python-Doc-Example/)
 
+![img](website.png)
+
 ## Features
 
 - out of the box amazing good looking website thanks to [mkdocs.org](https://www.mkdocs.org) and [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
