@@ -3,7 +3,7 @@ mkdocs + material + cool stuff
 
 Doc is live [here](https://francescosaveriozuppichini.github.io/Modern-Python-Doc-Example/)
 
-![img](/website.png)
+![img](/website.gif)
 
 ## Features
 
