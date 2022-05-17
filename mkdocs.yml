@@ -27,6 +27,7 @@ nav:
   - Math: math.md
   - Code: code.md
   - Terminal: terminal.md
+  - CI/CD: ci_cd.md
   - Code Reference: reference/
 
 plugins:
