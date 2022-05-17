@@ -1,7 +1,7 @@
 site_name: My Docs
+repo_url: https://github.com/FrancescoSaverioZuppichini/Modern-Python-Doc-Example
 theme:
   name: material
-  # custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -23,6 +23,7 @@ theme:
     - content.tabs.link
 nav:
   - Docs: index.md
+  - Getting Started: getting_started.md
   - Math: math.md
   - Code: code.md
   - Terminal: terminal.md
@@ -30,18 +31,18 @@ nav:
 markdown_extensions:
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
-
   - pymdownx.arithmatex:
       generic: true
-
   - pymdownx.highlight:
       anchor_linenums: true
-
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 extra_css:
   - css/termynal.css
