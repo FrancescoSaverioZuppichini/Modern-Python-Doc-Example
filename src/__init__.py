@@ -1,0 +1,1 @@
+from .project.example import foo

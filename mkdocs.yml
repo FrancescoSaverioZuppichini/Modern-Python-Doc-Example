@@ -27,6 +27,19 @@ nav:
   - Math: math.md
   - Code: code.md
   - Terminal: terminal.md
+  - Code Reference: reference/
+
+plugins:
+  - search 
+  - gen-files:
+      scripts:
+      - docs/gen_ref_pages.py  # 
+  - literate-nav:
+      nav_file: SUMMARY.md
+  - mkdocstrings:
+      watch:
+      - src/
+    
 
 markdown_extensions:
   - pymdownx.emoji:
@@ -43,7 +56,6 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-
 extra_css:
   - css/termynal.css
 
