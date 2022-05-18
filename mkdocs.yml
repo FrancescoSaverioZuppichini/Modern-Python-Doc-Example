@@ -1,5 +1,7 @@
 site_name: My Docs
 repo_url: https://github.com/FrancescoSaverioZuppichini/Modern-Python-Doc-Example
+edit_uri: edit/main/docs
+site_author: Francesco Zuppichini
 theme:
   name: material
   palette:
