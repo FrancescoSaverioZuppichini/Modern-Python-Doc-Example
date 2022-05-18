@@ -13,3 +13,8 @@ def foo(param1: int, param2: List[int]) -> bool:
     """
 
     return True
+
+
+class Foo:
+    def baa(self, x: int):
+        pass
