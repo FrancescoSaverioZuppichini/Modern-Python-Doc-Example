@@ -1,1 +1,0 @@
-from ..src.project.example import foo
